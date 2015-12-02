@@ -1,0 +1,24 @@
+body {
+	text-align: center;
+	background: url("../images/winecork.png");
+	background-size: cover;
+	color: #fff;
+	font-family: Helvetica;
+	margin: 300px;
+}
+
+main {
+	text-align: left;
+}
+
+h1{color:#9E2F07;
+}
+
+a{
+text-decoration: none;
+color: #FFC30D;
+}
+
+#slogan{
+	font-style: italic;
+}
