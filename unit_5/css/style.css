@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Caudex);
+@import url(https://fonts.googleapis.com/css?family=Oxygen:300);
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box; 
+}
+
+body {
+	font-family: Oxygen;
+	margin: 20px;
+}
+
+header {
+	text-align: left;
+}
+
+main {
+	text-align: left;
+}
+
+h1 {
+	font-family: 'Caudex', serif;
+}
+
+p{
+	padding-right: 600px
+}
+
+a{
+text-decoration: none;
+color: #B0A333;
+}
+
+.maroon_headline{
+	color:#7A1239;
+	padding-top: 100px
+}
+
+.maroon {
+	background-color: #7A1239;
+}
+
+.white_headline{
+	color: white;
+}
+
+.white_p{
+	color: white;
+}
+
+.green_section{
+	background-color: #B0A333;
+}
+
+.clearfix:after{
+height:0;
+font-size:0;
+visibility: hidden;
+content:’ ‘;
+display: block;
+clear:both;
+}
