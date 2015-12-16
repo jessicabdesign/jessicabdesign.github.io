@@ -14,6 +14,7 @@ body {
 
 header {
 	text-align: left;
+	background-color: #FFED74;
 }
 
 main {
@@ -24,22 +25,23 @@ h1 {
 	font-family: 'Caudex', serif;
 }
 
-p{
+p {
 	padding-right: 600px
 }
 
-a{
+a {
 text-decoration: none;
 color: #B0A333;
+padding: 10px;
 }
 
-.maroon_headline{
+.maroon_headline {
 	color:#7A1239;
 	padding-top: 100px
 }
 
-.maroon {
-	background-color: #7A1239;
+.section {
+	background-color: #FFE2B8;
 }
 
 .white_headline{
@@ -61,4 +63,9 @@ visibility: hidden;
 content:’ ‘;
 display: block;
 clear:both;
+}
+
+#footer{
+	text-align: center;
+	background-color: #FF957E
 }
