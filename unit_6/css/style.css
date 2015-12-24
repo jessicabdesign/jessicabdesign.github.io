@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Caudex);
+@import url(https://fonts.googleapis.com/css?family=Oxygen:300);
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box; 
+}
+
+body {
+	font-family: Oxygen;
+    margin: 20px;
+}
+
+header {
+	text-align: left;
+	background-color: #FFED74;
+}
+
+main {
+	text-align: left;
+}
+
+h1 {
+	font-family: 'Caudex', serif;
+}
+
+
+a {
+text-decoration: none;
+color: #B0A333;
+padding: 10px;
+}
+
+.maroon_headline {
+	color:#7A1239;
+}
+
+.section {
+	background-color: #FFE2B8;
+}
+
+.white_headline{
+	color: white;
+}
+
+.download{
+    font-family:Arial;
+    color:#000;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:14px;
+    border:1px solid #000;
+    background:#777;
+    padding:15px;
+}
+
+.white_p{
+	color: white;
+}
+
+.green_section{
+	background-color: #B0A333;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: E582A2;
+	border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%
+}
+
+#right {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+
+#footer{
+	text-align: center;
+	background-color: #FF957E;
+}
