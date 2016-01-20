@@ -8,9 +8,10 @@ box-sizing:border-box;
 }
 
 body {
-    background-color: #FFED74;
-    padding: 20px;
+    background-color: white;
+    padding: 2%;
     line-height: 1.5em;
+    font-size: 16px
 }
 
 p {
@@ -20,11 +21,19 @@ p {
 
 header {
 	text-align: left;
-	background-color: #FFED74;
+	background-color: white;
 }
 
 main {
 	text-align: left;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.75em;
 }
 
 h1, h2 {
@@ -37,33 +46,50 @@ h1, h2 {
 a {
 text-decoration: none;
 color: #B0A333;
-padding: 10px;
+padding: 2%;
 }
 
 .two_column {
     background-color: #FFB7CF;
-    border: 1px black solid;
-    padding: 20px;
+    border: .1em black solid;
+    padding: 2% 2% 0;
     position: relative;
 }
 
-.left {
-    background-color: E582A2;
-    border: 1px black solid;
-    padding: 50px;
+.column {
+    width: 50%;
     float: left;
-    width: 50%
+    position: relative;
+    height: 500px;
 }
 
-.right {
-    background-color: #E55B88;
-    border: 1px black solid;
-    padding: 50px;
+.column img {
     position: absolute;
-    width: 50%;
+    bottom: 0;
+    display: block;
     left: 50%;
-    top: 50%;
     webkit-transform: translateX(-50%);
+    moz-transform: translateX(-50%);
+    o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+
+.text_left {
+    padding-left: 10%;
+    position: absolute;
+    top: 45%;
+    webkit-transform: translateY(-50%);
+    moz-transform: translateY(-50%);
+    o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.text_right {
+    padding-right: 10%;
+    position: absolute;
+    top: 45%;
+    webkit-transform: translateY(-50%);
     moz-transform: translateY(-50%);
     o-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -82,12 +108,12 @@ padding: 10px;
     color:#000;
     text-decoration:none;
     text-transform:uppercase;
-    font-size:14px;
-    border:1px solid #000;
+    font-size:.9em;
+    border:.1em solid #000;
     background:#777;
-    padding:15px;
+    padding:.7em;
     display: block;
-    width: 120px;
+    width: 8em;
     margin: 2em 2em 2em 0;
 }
 
@@ -108,13 +134,27 @@ padding: 10px;
     height: 0;
 }
 
-
-#dl {
-    margin: auto;
+#center {
+    margin: 2em auto;
     display: block;
 }
 
 #footer{
 	text-align: center;
-	background-color: #FF957E;
+	background-color: white;
 }
+
+
+@media only screen and (max-width: 980px) {
+
+    body {
+        font-size: 14px
+    }
+
+    .phone{
+        width: 80%
+    }
+
+}
+
+
