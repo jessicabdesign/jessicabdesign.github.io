@@ -173,25 +173,53 @@ padding: 2%;
         font-size: 13.5px
     }
 
-    .text_left {
-    padding: 0% 10% 0% 10%;
-    position: absolute;
-    top: 20%;
+    .column {
+        width: 100%;
+        float: none;
+        position: static;
+        height: auto;
+    }
+
+    .column img {
+    position: static;
+    bottom: 0;
+    display: block;
+    left: 0;
     webkit-transform: none;
     moz-transform: none;
     o-transform: none;
     transform: none;
 }
 
-    .text_right {
+    .text_left {
         padding: 0% 10% 0% 10%;
-        position: absolute;
-        top: 20%;
+        position: static;
+        top: 0;
         webkit-transform: none;
         moz-transform: none;
         o-transform: none;
         transform: none;
     }
+
+    .text_right {
+        padding: 0% 10% 0% 10%;
+        position: static;
+        top: 0;
+        webkit-transform: none;
+        moz-transform: none;
+        o-transform: none;
+        transform: none;
+    }
+
+    .phone{
+        width: 50%;
+        margin: auto;
+        padding-top: 5%;
+    }
+
+    .download{
+        margin: 1em auto;
+}
 
 }
 
@@ -205,40 +233,9 @@ padding: 2%;
         font-size: 1.8em;
     }
 
-    .phone{
-        width: 60%;
-        padding-top:5%;
-    }
-
-    .column {
-        width: 100%;
-        float: none;
-        position: static;
-        height: 360px;
-    }
-
-    .text_left {
-        padding: 0% 10% 0% 10%;
-        position: absolute;
-        top: 15%;
-        webkit-transform: none;
-        moz-transform: none;
-        o-transform: none;
-        transform: none;
-    }
-
-    .text_right {
-        padding: 0% 10% 0% 10%;
-        position: absolute;
-        top: 15%;
-        webkit-transform: none;
-        moz-transform: none;
-        o-transform: none;
-        transform: none;
-    }
-
     #logo {
-        margin: auto
+        margin: auto;
+        display: block;
     }
 
 }
