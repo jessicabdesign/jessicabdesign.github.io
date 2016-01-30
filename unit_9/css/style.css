@@ -169,8 +169,16 @@ padding: 2%;
 @media only screen and (max-width: 800px) {
 
     
+h2 {
+    padding-top: 1em;
+}
+
     body {
         font-size: 13.5px
+    }
+
+    .two_column {
+        height: 720px;
     }
 
     .column {
@@ -181,10 +189,10 @@ padding: 2%;
     }
 
     .column img {
-    position: static;
+    position: absolute;
     bottom: 0;
     display: block;
-    left: 0;
+    left: 25%;
     webkit-transform: none;
     moz-transform: none;
     o-transform: none;
@@ -222,6 +230,15 @@ padding: 2%;
 }
 
 }
+
+
+@media only screen and (max-width: 600px) {
+
+    .two_column {
+        height: 650px;
+    }
+
+    }
 
 @media only screen and (max-width: 480px) {
 
